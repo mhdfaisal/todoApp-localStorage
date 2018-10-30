@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <section class="my-5">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Add new tasks</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control task-input" placeholder="New Task">
+                    </div>
+                    <button type="submit" class="btn btn-success add-task">Add Task</button>
+                </div>
+                <div class="card-body">
+                    <h3>Tasks List</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control filter" placeholder="Filter Tasks">
+                    </div>
+                    <ul class="list-group tasks-collection mb-5">
+                    </ul>
+                    <button class="btn btn-danger clear-task">Clear Tasks</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
